@@ -16,7 +16,9 @@ namespace XF_NavBarBkBtnOver
         {
             InitializeComponent();
 
-            NavigationPage.SetHasNavigationBar(this, false);
+            //TODO: Changes as per JarvanZhang-MSFT in
+            //https://docs.microsoft.com/en-us/answers/questions/401635/setting-toolbar-to-link-nav-bar-back-button-overri.html
+            //NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

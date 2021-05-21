@@ -6,6 +6,33 @@
              EnableBackButtonOverride="True"
              BackgroundColor="LightGreen"
              x:Class="XF_NavBarBkBtnOver.Views.Details">
+
+    <!--TODO: Changes as per JarvanZhang-MSFT in
+    https://docs.microsoft.com/en-us/answers/questions/401635/setting-toolbar-to-link-nav-bar-back-button-overri.html-->
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+            <!--<Button
+                Text="Go Back"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                HorizontalOptions="Start"
+                Clicked="ImageButton_Clicked" />-->
+            <ImageButton WidthRequest="25"
+                         HeightRequest="50"
+                         Source="iosbackarrow.png"
+                         BackgroundColor="Transparent"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center"
+                         Clicked="ImageButton_Clicked" />
+
+            <!--I need this label to display the title of the page but unable to center it to the screen-->
+            <Label Text="Details Page"
+                   TextColor="White"
+                   FontSize="16"
+                   VerticalOptions="Center" />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Save"
                      Order="Primary">

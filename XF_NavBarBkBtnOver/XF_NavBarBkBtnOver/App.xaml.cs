@@ -10,7 +10,10 @@ namespace XF_NavBarBkBtnOver
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            //TODO: Changes as per JarvanZhang-MSFT in
+            //https://docs.microsoft.com/en-us/answers/questions/401635/setting-toolbar-to-link-nav-bar-back-button-overri.html
+            //MainPage = new NavigationPage(new MainPage());
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
