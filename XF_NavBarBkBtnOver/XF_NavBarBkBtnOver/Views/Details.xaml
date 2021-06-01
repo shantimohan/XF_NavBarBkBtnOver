@@ -1,34 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<local:BackButtonCustomActionPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XF_NavBarBkBtnOver"
              Title="Details Page"
-             EnableBackButtonOverride="True"
              BackgroundColor="LightGreen"
              x:Class="XF_NavBarBkBtnOver.Views.Details">
 
     <!--TODO: Changes as per JarvanZhang-MSFT in
     https://docs.microsoft.com/en-us/answers/questions/401635/setting-toolbar-to-link-nav-bar-back-button-overri.html-->
     <NavigationPage.TitleView>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-            <!--<Button
-                Text="Go Back"
-                TextColor="White"
-                BackgroundColor="Transparent"
-                HorizontalOptions="Start"
-                Clicked="ImageButton_Clicked" />-->
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="FillAndExpand">
             <ImageButton WidthRequest="25"
-                         HeightRequest="50"
-                         Source="iosbackarrow.png"
+                         HeightRequest="25"
                          BackgroundColor="Transparent"
+                         Source="iosbackarrow.png"
                          VerticalOptions="Center"
                          HorizontalOptions="Center"
                          Clicked="ImageButton_Clicked" />
 
-            <!--I need this label to display the title of the page but unable to center it to the screen-->
             <Label Text="Details Page"
                    TextColor="White"
                    FontSize="16"
+                   HorizontalOptions="CenterAndExpand"
                    VerticalOptions="Center" />
         </StackLayout>
     </NavigationPage.TitleView>
@@ -46,4 +40,4 @@
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
-</local:BackButtonCustomActionPage>
+</ContentPage>

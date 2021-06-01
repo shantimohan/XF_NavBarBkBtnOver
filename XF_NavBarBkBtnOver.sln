@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF_NavBarBkBtnOver.Android"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF_NavBarBkBtnOver.iOS", "XF_NavBarBkBtnOver\XF_NavBarBkBtnOver.iOS\XF_NavBarBkBtnOver.iOS.csproj", "{EA04B4DB-AB7F-41F0-A6F3-C10D9DF4BBD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF_NavBarBkBtnOver", "XF_NavBarBkBtnOver\XF_NavBarBkBtnOver\XF_NavBarBkBtnOver.csproj", "{CA2673D4-E261-4FDC-AA3B-56B8E93B3D88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XF_NavBarBkBtnOver", "XF_NavBarBkBtnOver\XF_NavBarBkBtnOver\XF_NavBarBkBtnOver.csproj", "{CA2673D4-E261-4FDC-AA3B-56B8E93B3D88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
