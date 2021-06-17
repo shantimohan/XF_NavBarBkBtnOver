@@ -14,7 +14,7 @@
             <ImageButton WidthRequest="25"
                          HeightRequest="25"
                          BackgroundColor="Transparent"
-                         Source="iosbackarrow.png"
+                         Source="icon_back_arrow.png"
                          VerticalOptions="Center"
                          HorizontalOptions="Center"
                          Clicked="ImageButton_Clicked" />

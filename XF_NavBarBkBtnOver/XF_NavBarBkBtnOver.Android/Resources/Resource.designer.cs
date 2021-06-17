@@ -11679,6 +11679,9 @@ namespace XF_NavBarBkBtnOver.Droid
 			// aapt resource value: 0x7F07006B
 			public const int design_snackbar_background = 2131165291;
 			
+			// aapt resource value: 0x7F070070
+			public const int icon_back_arrow = 2131165296;
+			
 			// aapt resource value: 0x7F07006C
 			public const int ic_mtrl_checked_circle = 2131165292;
 			
@@ -11690,9 +11693,6 @@ namespace XF_NavBarBkBtnOver.Droid
 			
 			// aapt resource value: 0x7F07006F
 			public const int ic_mtrl_chip_close_circle = 2131165295;
-			
-			// aapt resource value: 0x7F070070
-			public const int iosbackarrow = 2131165296;
 			
 			// aapt resource value: 0x7F070071
 			public const int material_ic_calendar_black_24dp = 2131165297;
